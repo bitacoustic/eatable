@@ -1,0 +1,18 @@
+Models: 
+    Handles database i/o and stores retrieved data for use by the views.
+
+Views:
+    Generates the markup using data from the models.  May contain simple
+    logic - ex. checking if a user is logged in to determine which navigation
+    menu to display.
+
+Controllers:
+    Handles all user input and instantiates necessary models.
+
+
+Directory Structure:
+	model/			# contains model classes. 
+	view/page/		# contains views.
+	view/module/	# contains reusable view elements - footer, ect...
+	controller/		# contains controller classes.
+
